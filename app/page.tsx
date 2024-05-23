@@ -15,13 +15,13 @@ export default function Home() {
           <h1 className="mb-5 text-5xl py-5 font-extrabold">
             Welcome to the Ultimate Pokédex!
           </h1>
-          <p className="mb-4 text-lg">
+          <p className="mb-4 text-md">
             Discover, explore, and learn about all your favorite Pokémon in one
             place. Whether you're a seasoned trainer or just starting your
             journey, our comprehensive Pokédex has everything you need to become
             a Pokémon master.
           </p>
-          <ul className="text-lg list-disc">
+          <ul className="text-md list-disc">
             <li className="my-2">
               <strong>Search and Discover:</strong> Find detailed information on
               every Pokémon, from Bulbasaur to the latest generations.
@@ -38,7 +38,7 @@ export default function Home() {
           <Link
           href="/pokemon"
           >
-            <button className="btn btn-primary mt-2">Start Your Adventure Now!</button>
+            <button className="btn btn-primary mt-2 bg-indigo-600 text-white">Start Your Adventure Now!</button>
           </Link>
         </div>
       </div>
